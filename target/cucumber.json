@@ -1,0 +1,428 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 383820000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the browser with url",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.open_the_browser_with_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-17T18:41:23.546Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2958849100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify the NHS paying costs for England recident",
+        "description": "",
+        "id": "check-for-help-paying-nhs-costs;verify-the-nhs-paying-costs-for-england-recident",
+        "after": [
+          {
+            "output": [
+              "this is my failure message"
+            ],
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer\n  (failed to check if window was closed: disconnected: unable to connect to renderer)\n  (Session info: chrome\u003d107.0.5304.107)\nBuild info: version: \u00274.0.0-alpha-6\u0027, revision: \u00275f43a29cfc\u0027\nSystem info: host: \u0027LAPTOP-UQQABM88\u0027, ip: \u0027192.168.0.37\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\vinku\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7f7be2b5668575faa8938c5a418b96c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:639)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:468)\r\n\tat stepDefinitions.Hooks.tearDown(Hooks.java:60)\r\n",
+              "duration": 32413486700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 334809600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am a England recident",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.i_am_a_england_recident()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.107)\nBuild info: version: \u00274.0.0-alpha-6\u0027, revision: \u00275f43a29cfc\u0027\nSystem info: host: \u0027LAPTOP-UQQABM88\u0027, ip: \u0027192.168.0.37\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\vinku\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7f7be2b5668575faa8938c5a418b96c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:639)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:287)\r\n\tat pageObjects.CheckNHSCostsPage.pageTitle(CheckNHSCostsPage.java:134)\r\n\tat stepDefinitions.NHSCostsSteps.england_recident_put_circumstances_into_the_checker_tool(NHSCostsSteps.java:95)\r\n\tat ✽.England recident put circumstances into the checker tool(file:///C:/Users/vinku/java_Practice/NHSBSA/features/NHSCosts.feature:10)\r\n",
+              "duration": 1675396000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "England recident put circumstances into the checker tool",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.england_recident_put_circumstances_into_the_checker_tool()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2998100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "England recident should get a result of whether will get help or not",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.england_recident_should_get_a_result_of_whether_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@EndToEnd"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 328631700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the browser with url",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.open_the_browser_with_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-17T18:42:01.412Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1855191700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify the NHS paying costs for Scotland recident",
+        "description": "",
+        "id": "check-for-help-paying-nhs-costs;verify-the-nhs-paying-costs-for-scotland-recident",
+        "after": [
+          {
+            "result": {
+              "duration": 71417600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 323868100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am a Scotland recident",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.i_am_a_scotland_recident()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2976927500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Scotland recident put circumstances into the checker tool",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.scotland_recident_put_circumstances_into_the_checker_tool()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Scotland recident should get a result of whether I will get help or not",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.scotland_recident_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@EndToEnd"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 585942800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the browser with url",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.open_the_browser_with_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-17T18:42:06.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1919177000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify the NHS paying costs for Wales recident",
+        "description": "",
+        "id": "check-for-help-paying-nhs-costs;verify-the-nhs-paying-costs-for-wales-recident",
+        "after": [
+          {
+            "result": {
+              "duration": 16209811200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 330101100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am a Wales recident",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.i_am_a_wales_recident()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3662737100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Wales recident put circumstances into the checker tool",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.wales_recident_put_circumstances_into_the_checker_tool()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5998500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Wales recident I should get a result of whether I will get help or not",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.wales_recident_I_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 307625100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the browser with url",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.open_the_browser_with_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-17T18:42:29.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1876244100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Verify the NHS paying costs for ireland recident",
+        "description": "",
+        "id": "check-for-help-paying-nhs-costs;verify-the-nhs-paying-costs-for-ireland-recident",
+        "after": [
+          {
+            "result": {
+              "duration": 57309200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 318428000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am a Ireland recident",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.i_am_a_ireland_recident()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4995000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Ireland recident put circumstances into the checker tool",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.ireland_recident_put_circumstances_into_the_checker_tool()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49029800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Ireland recident should get a result of whether I will get help or not",
+            "match": {
+              "location": "stepDefinitions.NHSCostsSteps.ireland_recident_should_get_a_result_of_whether_I_will_get_help_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@search"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Check for help paying NHS costs",
+    "description": "",
+    "id": "check-for-help-paying-nhs-costs",
+    "keyword": "Feature",
+    "uri": "file:features/NHSCosts.feature",
+    "tags": [
+      {
+        "name": "@search",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

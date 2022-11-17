@@ -1,0 +1,5 @@
+helpers\CommonUtils.class
+stepDefinitions\Hooks.class
+stepDefinitions\NHSCostsSteps.class
+pageObjects\CheckNHSCostsPage.class
+testRunner\UIRunner.class
