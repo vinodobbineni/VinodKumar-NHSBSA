@@ -129,19 +129,19 @@
 					<artifactId>maven-failsafe-plugin</artifactId>
 					<version>3.0.0-M5</version>
 					<executions>
-					<execution>
-					<goals>
-						<goal>regression-test</goal>
-					</goals>
-					<configuration>
-					<includes>
-					<include>**/UIRunner.java</include>
-					</includes>
-					<parallel>methods</parallel>
-					<threadcount>4</threadcount>
-					<preCoreThreadCount>true</preCoreThreadCount>
-					</configuration>
-					</execution>
+						<execution>
+							<goals>
+								<goal>regression-test</goal>
+							</goals>
+							<configuration>
+								<includes>
+									<include>**/UIRunner.java</include>
+								</includes>
+								<parallel>methods</parallel>
+								<threadcount>4</threadcount>
+								<preCoreThreadCount>true</preCoreThreadCount>
+							</configuration>
+						</execution>
 					</executions>
 				</plugin>
 

@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 383820000,
+              "duration": 623691700,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-17T18:41:23.546Z",
+        "start_timestamp": "2022-11-18T11:41:00.617Z",
         "before": [
           {
             "result": {
-              "duration": 2958849100,
+              "duration": 6078485700,
               "status": "passed"
             },
             "match": {
@@ -39,16 +39,12 @@
         "line": 8,
         "name": "Verify the NHS paying costs for England recident",
         "description": "",
-        "id": "check-for-help-paying-nhs-costs;verify-the-nhs-paying-costs-for-england-recident",
+        "id": "nhs-costs-checket-tool;verify-the-nhs-paying-costs-for-england-recident",
         "after": [
           {
-            "output": [
-              "this is my failure message"
-            ],
             "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer\n  (failed to check if window was closed: disconnected: unable to connect to renderer)\n  (Session info: chrome\u003d107.0.5304.107)\nBuild info: version: \u00274.0.0-alpha-6\u0027, revision: \u00275f43a29cfc\u0027\nSystem info: host: \u0027LAPTOP-UQQABM88\u0027, ip: \u0027192.168.0.37\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\vinku\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7f7be2b5668575faa8938c5a418b96c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:639)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:468)\r\n\tat stepDefinitions.Hooks.tearDown(Hooks.java:60)\r\n",
-              "duration": 32413486700,
-              "status": "failed"
+              "duration": 534318500,
+              "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -60,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 334809600,
+              "duration": 495014300,
               "status": "passed"
             },
             "line": 9,
@@ -72,9 +68,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d107.0.5304.107)\nBuild info: version: \u00274.0.0-alpha-6\u0027, revision: \u00275f43a29cfc\u0027\nSystem info: host: \u0027LAPTOP-UQQABM88\u0027, ip: \u0027192.168.0.37\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\vinku\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64805}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7f7be2b5668575faa8938c5a418b96c1\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:639)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:287)\r\n\tat pageObjects.CheckNHSCostsPage.pageTitle(CheckNHSCostsPage.java:134)\r\n\tat stepDefinitions.NHSCostsSteps.england_recident_put_circumstances_into_the_checker_tool(NHSCostsSteps.java:95)\r\n\tat ✽.England recident put circumstances into the checker tool(file:///C:/Users/vinku/java_Practice/NHSBSA/features/NHSCosts.feature:10)\r\n",
-              "duration": 1675396000,
-              "status": "failed"
+              "duration": 16836032800,
+              "status": "passed"
             },
             "line": 10,
             "name": "England recident put circumstances into the checker tool",
@@ -85,8 +80,8 @@
           },
           {
             "result": {
-              "duration": 2998100,
-              "status": "skipped"
+              "duration": 36444100,
+              "status": "passed"
             },
             "line": 11,
             "name": "England recident should get a result of whether will get help or not",
@@ -97,9 +92,6 @@
           }
         ],
         "tags": [
-          {
-            "name": "@search"
-          },
           {
             "name": "@regression"
           },
@@ -117,7 +109,7 @@
         "steps": [
           {
             "result": {
-              "duration": 328631700,
+              "duration": 604118700,
               "status": "passed"
             },
             "line": 5,
@@ -130,11 +122,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-17T18:42:01.412Z",
+        "start_timestamp": "2022-11-18T11:41:25.310Z",
         "before": [
           {
             "result": {
-              "duration": 1855191700,
+              "duration": 4488125900,
               "status": "passed"
             },
             "match": {
@@ -145,11 +137,11 @@
         "line": 14,
         "name": "Verify the NHS paying costs for Scotland recident",
         "description": "",
-        "id": "check-for-help-paying-nhs-costs;verify-the-nhs-paying-costs-for-scotland-recident",
+        "id": "nhs-costs-checket-tool;verify-the-nhs-paying-costs-for-scotland-recident",
         "after": [
           {
             "result": {
-              "duration": 71417600,
+              "duration": 584438200,
               "status": "passed"
             },
             "match": {
@@ -162,7 +154,7 @@
         "steps": [
           {
             "result": {
-              "duration": 323868100,
+              "duration": 531205800,
               "status": "passed"
             },
             "line": 15,
@@ -174,7 +166,7 @@
           },
           {
             "result": {
-              "duration": 2976927500,
+              "duration": 8313453800,
               "status": "passed"
             },
             "line": 16,
@@ -186,7 +178,7 @@
           },
           {
             "result": {
-              "duration": 6000100,
+              "duration": 3527100,
               "status": "passed"
             },
             "line": 17,
@@ -199,9 +191,6 @@
         ],
         "tags": [
           {
-            "name": "@search"
-          },
-          {
             "name": "@regression"
           },
           {
@@ -218,7 +207,7 @@
         "steps": [
           {
             "result": {
-              "duration": 585942800,
+              "duration": 582993000,
               "status": "passed"
             },
             "line": 5,
@@ -231,11 +220,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-17T18:42:06.984Z",
+        "start_timestamp": "2022-11-18T11:41:39.840Z",
         "before": [
           {
             "result": {
-              "duration": 1919177000,
+              "duration": 3776558200,
               "status": "passed"
             },
             "match": {
@@ -246,11 +235,11 @@
         "line": 20,
         "name": "Verify the NHS paying costs for Wales recident",
         "description": "",
-        "id": "check-for-help-paying-nhs-costs;verify-the-nhs-paying-costs-for-wales-recident",
+        "id": "nhs-costs-checket-tool;verify-the-nhs-paying-costs-for-wales-recident",
         "after": [
           {
             "result": {
-              "duration": 16209811200,
+              "duration": 611677100,
               "status": "passed"
             },
             "match": {
@@ -263,7 +252,7 @@
         "steps": [
           {
             "result": {
-              "duration": 330101100,
+              "duration": 568577700,
               "status": "passed"
             },
             "line": 21,
@@ -275,7 +264,7 @@
           },
           {
             "result": {
-              "duration": 3662737100,
+              "duration": 6655716800,
               "status": "passed"
             },
             "line": 22,
@@ -287,7 +276,7 @@
           },
           {
             "result": {
-              "duration": 5998500,
+              "duration": 7998400,
               "status": "passed"
             },
             "line": 23,
@@ -299,9 +288,6 @@
           }
         ],
         "tags": [
-          {
-            "name": "@search"
-          },
           {
             "name": "@regression"
           }
@@ -316,7 +302,7 @@
         "steps": [
           {
             "result": {
-              "duration": 307625100,
+              "duration": 531479900,
               "status": "passed"
             },
             "line": 5,
@@ -329,11 +315,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-11-17T18:42:29.705Z",
+        "start_timestamp": "2022-11-18T11:41:52.049Z",
         "before": [
           {
             "result": {
-              "duration": 1876244100,
+              "duration": 4328863100,
               "status": "passed"
             },
             "match": {
@@ -344,11 +330,11 @@
         "line": 27,
         "name": "Verify the NHS paying costs for ireland recident",
         "description": "",
-        "id": "check-for-help-paying-nhs-costs;verify-the-nhs-paying-costs-for-ireland-recident",
+        "id": "nhs-costs-checket-tool;verify-the-nhs-paying-costs-for-ireland-recident",
         "after": [
           {
             "result": {
-              "duration": 57309200,
+              "duration": 537538400,
               "status": "passed"
             },
             "match": {
@@ -361,7 +347,7 @@
         "steps": [
           {
             "result": {
-              "duration": 318428000,
+              "duration": 520580200,
               "status": "passed"
             },
             "line": 28,
@@ -373,7 +359,7 @@
           },
           {
             "result": {
-              "duration": 4995000,
+              "duration": 9998900,
               "status": "passed"
             },
             "line": 29,
@@ -385,7 +371,7 @@
           },
           {
             "result": {
-              "duration": 49029800,
+              "duration": 46528900,
               "status": "passed"
             },
             "line": 30,
@@ -398,9 +384,6 @@
         ],
         "tags": [
           {
-            "name": "@search"
-          },
-          {
             "name": "@regression"
           },
           {
@@ -409,20 +392,11 @@
         ]
       }
     ],
-    "name": "Check for help paying NHS costs",
+    "name": "NHS costs checket tool",
     "description": "",
-    "id": "check-for-help-paying-nhs-costs",
+    "id": "nhs-costs-checket-tool",
     "keyword": "Feature",
     "uri": "file:features/NHSCosts.feature",
-    "tags": [
-      {
-        "name": "@search",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   }
 ]

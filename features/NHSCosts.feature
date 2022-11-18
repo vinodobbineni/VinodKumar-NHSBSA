@@ -1,5 +1,5 @@
-@search
-Feature: Check for help paying NHS costs
+
+Feature:  NHS costs checket tool
   
   Background:
   Given Open the browser with url

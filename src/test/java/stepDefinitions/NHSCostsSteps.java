@@ -15,8 +15,7 @@ import pageObjects.CheckNHSCostsPage;
 
 public class NHSCostsSteps extends CommonUtils {
 	public WebDriver driver;
-	
-	
+
 	CheckNHSCostsPage costspage = new CheckNHSCostsPage();
 
 	@Given("Open the browser with url")
@@ -33,7 +32,7 @@ public class NHSCostsSteps extends CommonUtils {
 
 	@Given("I am a England recident")
 	public void i_am_a_england_recident() throws InterruptedException {
-		//costspage.dwait();
+
 		costspage.rdbtnengland(); // select county
 		costspage.nextbtn();
 		String pagetitle = costspage.pageTitle();
@@ -44,7 +43,7 @@ public class NHSCostsSteps extends CommonUtils {
 
 	@Given("I am a Scotland recident")
 	public void i_am_a_scotland_recident() throws InterruptedException {
-		//costspage.dwait();
+
 		costspage.rdbtnscotland(); // select country
 		costspage.nextbtn();
 		String pagetitle = costspage.pageTitle();
@@ -54,7 +53,7 @@ public class NHSCostsSteps extends CommonUtils {
 
 	@Given("I am a Wales recident")
 	public void i_am_a_wales_recident() throws InterruptedException {
-		//costspage.dwait();
+
 		costspage.rdbtnwales(); // select country
 		costspage.nextbtn();
 		String pagetitle = costspage.pageTitle();
@@ -65,7 +64,7 @@ public class NHSCostsSteps extends CommonUtils {
 
 	@Given("I am a Ireland recident")
 	public void i_am_a_ireland_recident() throws InterruptedException {
-		//costspage.dwait();
+
 		costspage.rdbtnireland(); // select country
 		costspage.nextbtn();
 	}
