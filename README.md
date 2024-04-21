@@ -10,7 +10,7 @@
 		
 	mvn verify  	// This command build the project, runs all the test cases and run any checks on the results 
 	
-**Prefered Commands to run test cases ** 	
+## Prefered Commands to run test cases ##
 	
 	mvn clean verify and mvn clean test
 	
